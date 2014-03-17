@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 var program = require('commander');
-var scripts = require('./lib/scripts');
-var config = require('./lib/config');
-var deploy = require('./lib/deploy');
+var scripts = require('../lib/scripts');
+var config = require('../lib/config');
+var deploy = require('../lib/deploy');
 var pkg = require('../package.json');
 
 program
