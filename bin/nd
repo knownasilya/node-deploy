@@ -14,8 +14,8 @@ program
 function init(){
   config.generate(function(settings) {
     if (!config.validate(settings)) return;
-    scripts.generate(program.directory, settings);
-    config.save(program.directory + '/deploy.json', settings);
+    scripts.generate(program.directory || 'deploy', settings);
+    config.save((program.directory || 'deploy') + '/deploy.json', settings);
   });
 }
 
