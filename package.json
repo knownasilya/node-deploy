@@ -7,7 +7,6 @@
   "homepage": "https://github.com/martinrue/node-deploy",
   "license": "BSD",
   "dependencies": {
-    "async": "~0.2.9",
     "glob": "~3.2.1",
     "chalk": "^0.4.0",
     "commander": "^2.1.0"
