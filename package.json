@@ -14,7 +14,7 @@
     "commander": "^2.1.0"
   },
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "node ./test"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,6 @@
     "nd": "./bin/nd"
   },
   "devDependencies": {
-    "chai": "^1.9.0",
-    "mocha": "^1.18.0"
+    "tape": "^2.10.2"
   }
 }
